@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:arial;
+    background-image:url(midia/colorful-abstract-liquid-shapes-seamless-repeat-pattern-vector.jpg);
+    background-repeat: repeat;
+    background-attachment:scroll;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    display:block;
+    padding:20px 5px;
+    color:white;
+}
+a:hover{
+    background-color:rgba(77, 2, 14, 0.338);
+    color:black;
+}
+
+ul{
+    list-style:none;
+    top:70px;
+    position:absolute;
+    width:100%;
+}
+
+img{
+    width:40px;
+}
+
+input[type="checkbox"]
+{
+    display:none;
+}
+
+input[type="checkbox"]:checked ~ nav
+{
+transform:translatex(350px);
+}
+
+nav{
+    background-color:rgba(220, 20, 60, 0.237);
+    width:350px;
+    height:100%;
+    left:-350px;
+    position:absolute;
+}
+
+label{
+    padding:15px;
+    position:absolute;
+    z-index:1;
+}
