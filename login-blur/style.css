@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background-image: url(midia/jeremy-cai-B8UTPKlHNyw-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    color:#f5f0f0;
+}
+
+header{
+    text-align: center;
+    padding:20px;
+    font-size:larger;
+}
+
+section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width:100%;
+}
+
+form{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    width:350px;
+    height:450px;
+    background-color:transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius:20px;
+    backdrop-filter:blur(10px);
+    padding:20px;
+    box-shadow:1px 1px 10px rgba(255, 255, 255, 0.347);
+    overflow:hidden;
+}
+
+
+i{
+    position:relative;
+    top:-35px;
+    left:320px;
+    color:rgb(189, 56, 47);
+}
+
+.input-type{
+    background-color:#f5f0f0d1;
+    color:#f5f0f0;
+    margin:5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:320px;
+    height:20px;
+    padding:10px;
+    outline:none;
+    border:none;
+    font-size:small;
+
+    }
+
+.button:hover{
+box-shadow: 1px 5px 7px 1px rgba(255, 255, 255, 0.2)
+    }
+
+.check{
+text-align:center;
+padding:10px;
+}
+
+.button{
+    width:100%;
+    height:40px;
+    border-radius:40px;
+    background-color:#f5f0f0;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    font-size:1em;
+    font-weight:500;
+    padding:10px;
+    
+}
+
+.input-type:focus{
+    background-color: #ff67492c;
+}
+
+a{
+    color:#f5f0f0;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#AD3735;
+    text-decoration: underline;
+}
+
+p{
+    text-align: center;
+    padding:15px;
+}
+
+.check{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}

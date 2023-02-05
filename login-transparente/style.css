@@ -86,7 +86,6 @@ i{
     font-size:15px;
     outline:none;
     cursor:pointer;
-    transition: .3s;
 }
 
 ::-webkit-input-placeholder{
