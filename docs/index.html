@@ -2,39 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="midia/favicon.ico" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/33e974651d.js" crossorigin="anonymous"></script>
+    <title>Login Blur</title>
+    <style>
+        body {
+            background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            backdrop-filter: blur(5px);
+        }
+        .login-box {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+            color: white;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #fff;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <section>
-        <form>
-            <header>
-                <h1 class="text">Login</h1>
-            </header>
-            <div class="email">
-                <label for="email">Email</label>
-                <input type="email" class="input-type" id="email" name="email" required autocomplete="off">
-                <i class="fa-regular fa-user"></i>
-            </div>
-            <div class="password">
-                <label for="pass">Password</label>
-                <input type="password" class="input-type" id="pass" name="pass" required>
-                <i class="fa-solid fa-lock"></i>
-            </div>
-            <div class="check">
-            <label for="check">
-            <input type="checkbox" id="check" name="check">Remember Me</label>
-            <a href="#">Forget Password</a>
-            </div>
-            <button class="button">Log In</button>
-            <div class="bottom">
-                <p>Don't have a account?<br><a href="#">Register</a></p>
-            </div>
-        </form>
-    </section>
+    <div class="login-box">
+        <h2>Login Blur</h2>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <button>Login</button>
+    </div>
 </body>
 </html>
